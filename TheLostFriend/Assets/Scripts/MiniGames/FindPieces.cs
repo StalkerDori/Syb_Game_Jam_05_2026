@@ -9,7 +9,8 @@ public class FindPieces : MonoBehaviour
     public static bool eleven;
     void Start()
     {
-        eleven = false;
+        //eleven = false;
+        eleven = true;
         countFindPieces = 0;
     }
 
@@ -20,5 +21,10 @@ public class FindPieces : MonoBehaviour
             eleven = true;
 
         countPieces.text = "Кусочков собрано: " + countFindPieces + "/12";
+
+        for (int i = 0; i < countFindPieces; i++)
+        {
+            pieces[i].gameObject.SetActive(true);
+        }
     }
 }

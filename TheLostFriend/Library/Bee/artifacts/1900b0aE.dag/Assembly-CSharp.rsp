@@ -479,6 +479,7 @@
 "Assets/Scripts/Arrow.cs"
 "Assets/Scripts/ButtonsMenu.cs"
 "Assets/Scripts/ComeToMe.cs"
+"Assets/Scripts/Cursor.cs"
 "Assets/Scripts/darkSprite.cs"
 "Assets/Scripts/Fade.cs"
 "Assets/Scripts/FadedMessage.cs"
@@ -501,6 +502,7 @@
 "Assets/Scripts/RandHorrorSounds.cs"
 "Assets/Scripts/Scrimer.cs"
 "Assets/Scripts/startTheme.cs"
+"Assets/Scripts/TakePiece.cs"
 "Assets/Scripts/TV.cs"
 "Assets/_Heathen Engineering/Samples/UX Examples/Flat Icons [Free]/ToggleSetAnimatorBoolean.cs"
 -langversion:9.0

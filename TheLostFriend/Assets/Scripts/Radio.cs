@@ -19,7 +19,7 @@ public class Radio : MonoBehaviour
         {
             if (slider.value > 80 && slider.value < 85)
             {
-                if (!m_AudioSource.isPlaying)
+                if (!m_AudioSource.isPlaying && Arrow.imHere)
                     Invoke("Play", 0.75f);
             }
             else

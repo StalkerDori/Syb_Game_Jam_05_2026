@@ -8,7 +8,7 @@ public class MindVoices : MonoBehaviour
     Color textColor;
     void Start()
     {
-        textColor.a = 0;
+        textColor.a = 1;
     }
 
     // Update is called once per frame
