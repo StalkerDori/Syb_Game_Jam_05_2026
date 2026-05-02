@@ -5,6 +5,7 @@ public class TV : MonoBehaviour
 {
     VideoPlayer TVplayer;
     public static bool tv;
+    public GameObject iconsTV;
 
     private void Start()
     {
@@ -31,7 +32,17 @@ public class TV : MonoBehaviour
             tv = true;
             TVplayer.Play();
 
+            Invoke("Icon", Random.Range(5, 35));
             Invoke("Stop", 39f);
         }
+    }
+    void Icon()
+    {
+        iconsTV.SetActive(true);
+        Invoke("StopIcon", 0.5f);
+    }
+    void StopIcon()
+    {
+        iconsTV.SetActive(false);
     }
 }
