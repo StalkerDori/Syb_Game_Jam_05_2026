@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class TakePiece : MonoBehaviour
 {
-    MeshRenderer rend;
-    //SpriteRenderer sprite;
+    SpriteRenderer sprite;
     private void Start()
     {
-        rend = GetComponent<MeshRenderer>();
+        sprite = GetComponent<SpriteRenderer>();
     }
     private void OnMouseDown()
     {
         FindPieces.countFindPieces++;
+        darkSprite.dark = true;
         Destroy(gameObject);
     }
     private void Update()
@@ -22,10 +22,10 @@ public class TakePiece : MonoBehaviour
     }
     void Act()
     {
-        rend.enabled = true;
+        sprite.enabled = true;
     }
     void Disact()
     {
-        rend.enabled = false;
+        sprite.enabled = false;
     }
 }

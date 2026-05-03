@@ -17,11 +17,15 @@ public class Scrimer : MonoBehaviour
             scrimer.transform.localScale = new Vector3(5 + Time.deltaTime * 5, 5 + Time.deltaTime * 5, transform.localScale.z);
         }
 
-        if (Input.GetMouseButtonDown(2))
+        if (PictureManager.countPieces == 12 && Input.GetKeyDown(KeyCode.Escape))
         {
-            scrimer.SetActive(true);
-            Invoke("Stop", 9f);
+            Invoke("Scr", 1.5f);
         }
+    }
+    void Scr()
+    {
+        scrimer.SetActive(true);
+        Invoke("Stop", 9f);
     }
     void Stop()
     {

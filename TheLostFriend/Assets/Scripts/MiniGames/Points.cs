@@ -16,6 +16,7 @@ public class Points : MonoBehaviour
 
     public static bool startConnect;
     private bool me;
+    bool one;
     void Start()
     {
         rend = GetComponent<MeshRenderer>();
@@ -42,11 +43,6 @@ public class Points : MonoBehaviour
         {
             Invoke("Check", 0.1f);
         }
-
-        if (!truePoint && me)
-        {
-            PointsManager.pointsCount = -100;
-        }
     }
     void MoveTrailToCursor(Vector3 screenPosition)
     {
@@ -59,6 +55,15 @@ public class Points : MonoBehaviour
             trailTime = 5f;
             startConnect = true;
             me = true;
+
+            if (truePoint && me)
+            {
+                PointsManager.pointsCount++;
+            }
+            if (!truePoint && me)
+            {
+                PointsManager.pointsCount -= 100;
+            }
         }
     }
     private void OnMouseEnter()
@@ -67,9 +72,14 @@ public class Points : MonoBehaviour
         {
             me = true;
 
-            if (truePoint && me)
+            if (truePoint && me && !one)
             {
                 PointsManager.pointsCount++;
+                one = true;
+            }
+            if (!truePoint && me)
+            {
+                PointsManager.pointsCount -= 100;
             }
         }
     }
@@ -80,6 +90,8 @@ public class Points : MonoBehaviour
     }
     void Check()
     {
+        one = false; 
+
         if (!PointsManager.pointsComplete)
         {
             PointsManager.pointsCount = 0;

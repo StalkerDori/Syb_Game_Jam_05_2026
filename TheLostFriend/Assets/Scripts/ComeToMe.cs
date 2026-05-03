@@ -39,9 +39,9 @@ public class ComeToMe : MonoBehaviour
             else
             {
                 if (room1)
-                    currentCamPos = new Vector3(0, -1, -10);
-                if (room2)
                     currentCamPos = new Vector3(0, -1, -35);
+                if (room2)
+                    currentCamPos = new Vector3(0, -1, -10);
             }
             Fade.faded = true;
             Invoke("GoHere", Fade.staticLerpTime);

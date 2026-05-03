@@ -9,8 +9,7 @@ public class FindPieces : MonoBehaviour
     public static bool eleven;
     void Start()
     {
-        //eleven = false;
-        eleven = true;
+        eleven = false;
         countFindPieces = 0;
     }
 
@@ -20,6 +19,7 @@ public class FindPieces : MonoBehaviour
         if (countFindPieces == 11)
             eleven = true;
 
+        countPieces.color = Color.white;
         countPieces.text = "Кусочков собрано: " + countFindPieces + "/12";
 
         for (int i = 0; i < countFindPieces; i++)

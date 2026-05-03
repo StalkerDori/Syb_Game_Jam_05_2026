@@ -26,6 +26,7 @@ public class BlockMovingManager : MonoBehaviour
         if (blockMoveCompleted && !piece)
         {
             FindPieces.countFindPieces++;
+            darkSprite.dark = true;
             Destroy(mainBlock);
             piece = true;
         }

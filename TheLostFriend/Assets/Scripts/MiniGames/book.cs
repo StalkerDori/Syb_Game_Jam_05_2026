@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class book : MonoBehaviour
 {
+    public bool isBook;
+    public float myX;
+    private bool rightPos;
     public float rayLength;
     bool left, right;
     Vector3 startPos, finishPos;
@@ -16,19 +19,65 @@ public class book : MonoBehaviour
     {
         Move();
         Ray();
+
+        if (Mathf.Abs(transform.localPosition.x - myX) < 0.05f && !rightPos)
+        {
+            if (isBook)
+            {
+                BooksDressesManager.booksCount++;
+            }
+            else
+            {
+                BooksDressesManager.dressesCount++;
+            }
+            rightPos = true;
+        }
+
+        if (Mathf.Abs(transform.localPosition.x - myX) > 0.05f && rightPos)
+        {
+            if (isBook)
+            {
+                BooksDressesManager.booksCount--;
+            }
+            else
+            {
+                BooksDressesManager.dressesCount--;
+            }
+            rightPos = false;
+        }
     }
     private void OnMouseDown()
     {
-        if (!take)
+        if (isBook && !BooksDressesManager.booksComplete)
         {
-            take = true;
-            startPos = Input.mousePosition;
+            if (!take)
+            {
+                take = true;
+                startPos = Input.mousePosition;
+            }
+        }
+        if (!isBook && !BooksDressesManager.dressesComplete)
+        {
+            if (!take)
+            {
+                take = true;
+                startPos = Input.mousePosition;
+            }
         }
     }
     private void OnMouseUp()
     {
-        if (take)
-            finishPos = Input.mousePosition;
+        if (isBook && !BooksDressesManager.booksComplete)
+        {
+            if (take)
+                finishPos = Input.mousePosition;
+        }
+
+        if (!isBook && !BooksDressesManager.dressesComplete)
+        {
+            if (take)
+                finishPos = Input.mousePosition;
+        }
     }
     private void Move()
     {
