@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 7453240dcd9e8194dbf74a897fefc222
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4699290446430834398
+    second: HanUnderTheBed_0
+  - first:
+      213: 8874508009375088435
+    second: HanUnderTheBed_1
+  - first:
+      213: 5665932648897900167
+    second: HanUnderTheBed_2
+  - first:
+      213: 6648229994343310386
+    second: HanUnderTheBed_3
+  - first:
+      213: 7829737213130191343
+    second: HanUnderTheBed_4
+  - first:
+      213: 4659158748805151473
+    second: HanUnderTheBed_5
+  - first:
+      213: -8832773829290641796
+    second: HanUnderTheBed_6
+  - first:
+      213: -3166647018366049885
+    second: HanUnderTheBed_7
+  - first:
+      213: 2054025778077839472
+    second: HanUnderTheBed_8
+  - first:
+      213: -7702901071484975660
+    second: HanUnderTheBed_9
+  - first:
+      213: 3541281439316152574
+    second: HanUnderTheBed_10
+  - first:
+      213: -4622435740337740787
+    second: HanUnderTheBed_11
+  - first:
+      213: 7926163333855383062
+    second: HanUnderTheBed_12
+  - first:
+      213: 6866319448714668569
+    second: HanUnderTheBed_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HanUnderTheBed_0
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 18779
+        width: 1582
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2217a14ac34c8ceb0800000000000000
+      internalID: -4699290446430834398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanUnderTheBed_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 16219
+        width: 1582
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f392fe306982b70800000000000000
+      internalID: 8874508009375088435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanUnderTheBed_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 13659
+        width: 1582
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ee8da89bf61ae40800000000000000
+      internalID: 5665932648897900167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanUnderTheBed_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 11099
+        width: 1582
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2342eedb4f1434c50800000000000000
+      internalID: 6648229994343310386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanUnderTheBed_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 8539
+        width: 1582
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe13849f280d8ac60800000000000000
+      internalID: 7829737213130191343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanUnderTheBed_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 5959
+        width: 1582
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa3fae5238a8a040800000000000000
+      internalID: 4659158748805151473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanUnderTheBed_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 3379
+        width: 1582
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76b3c3100fab6580800000000000000
+      internalID: -8832773829290641796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HanUnderTheBed_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 595
+        width: 1582
+        height: 726
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1ed3d705fcd04d0800000000000000
+      internalID: -3166647018366049885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa74f038d0f2aed449b406230bbaa77f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HanUnderTheBed_0: -4699290446430834398
+      HanUnderTheBed_1: 8874508009375088435
+      HanUnderTheBed_10: 3541281439316152574
+      HanUnderTheBed_11: -4622435740337740787
+      HanUnderTheBed_12: 7926163333855383062
+      HanUnderTheBed_13: 6866319448714668569
+      HanUnderTheBed_2: 5665932648897900167
+      HanUnderTheBed_3: 6648229994343310386
+      HanUnderTheBed_4: 7829737213130191343
+      HanUnderTheBed_5: 4659158748805151473
+      HanUnderTheBed_6: -8832773829290641796
+      HanUnderTheBed_7: -3166647018366049885
+      HanUnderTheBed_8: 2054025778077839472
+      HanUnderTheBed_9: -7702901071484975660
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
